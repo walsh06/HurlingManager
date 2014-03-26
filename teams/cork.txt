@@ -1,0 +1,17 @@
+L
+15
+1,GK,Anthony Nash
+2,FB,Shane O'Neill
+3,FB,Stephen McDonnel
+4,FB,Conor O'Sullivan
+5,HB,William Egan
+6,HB,Christopher Joyce
+7,HB,Tom Kenny
+8,MF,Lorcan McLoughlin
+9,MF,Daniel Kearney
+10,HF,Jamie Coughlan
+11,HF,Seamus Harnedy
+12,HF,Pa Cronin
+13,FF,Conor Lehane
+14,FF,Luke O'Farrell
+15,FF,Patrick Horgan

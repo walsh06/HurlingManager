@@ -1,0 +1,15 @@
+Eoin Murphy,18,1,1,1
+Paul Murphy,1,17,2,2
+JJ Delaney,1,19,3,1
+Jackie Tyrrell,1,18,3,2
+Tommy Walsh,1,19,11,5
+Brian Hogan,1,20,10,4
+Kieran Joyce,1,18,10,6
+Lester Ryan,1,8,18,9
+Michael Fennelly,1,8,19,10
+Cillian Buckley,1,4,8,18
+Michael Rice,1,3,9,19
+Eoin Larkin,1,2,10,19
+Colin Fennelly,1,1,5,18
+Richie Hogan,1,2,6,19
+Aidan Fogarty,1,3,5,19

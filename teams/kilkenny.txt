@@ -1,0 +1,17 @@
+L
+12
+1,GK,Eoin Murphy
+2,FB,Paul Murphy
+3,FB,JJ Delaney
+4,FB,Jackie Tyrrell
+5,HB,Tommy Walsh
+6,HB,Brian Hogan
+7,HB,Kieran Joyce
+8,MF,Lester Ryan
+9,MF,Michael Fennelly
+10,HF,Cillian Buckley
+11,HF,Michael Rice
+12,HF,Eoin Larkin
+13,FF,Colin Fennelly
+14,FF,Richie Hogan
+15,FF,Aidan Fogarty

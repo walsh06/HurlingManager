@@ -1,0 +1,15 @@
+Darren Gleeson,17,1,1,1
+Michael Cahill,2,17,3,1
+Conor O'Mahony,1,19,2,1
+Paul Curran,1,18,3,2
+Kieran Bergin,1,18,7,2
+Padriac Maher,1,19,10,5
+Conor O'Brien,1,18,9,5
+Brendan Maher,1,9,18,9
+Shane McGrath,1,8,18,6
+Eoin Kelly,1,4,8,19
+Lar Corbett,1,3,9,19
+Patrick Maher,1,2,7,18
+Shane Bourke,1,3,6,18
+Seamus Callanan,1,4,8,18
+Noel McGrath,1,4,9,19

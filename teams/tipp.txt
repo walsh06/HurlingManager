@@ -1,0 +1,17 @@
+T
+10
+1,GK,Darren Gleeson
+2,FB,Michael Cahill
+3,FB,Conor O'Mahony
+4,FB,Paul Curran
+5,HB,Kieran Bergin
+6,HB,Padriac Maher
+7,HB,Conor O'Brien
+8,MF,Brendan Maher
+9,MF,Shane McGrath
+10,HF,Eoin Kelly
+11,HF,Lar Corbett
+12,HF,Patrick Maher
+13,FF,Shane Bourke
+14,FF,Seamus Callanan
+15,FF,Noel McGrath

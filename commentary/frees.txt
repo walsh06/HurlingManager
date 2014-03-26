@@ -1,0 +1,10 @@
+<name> looks at the goals and scores a point from a free
+<name> places the ball on the grass, steadies himself and sticks it between the posts.
+<other> is dragged down and <name> converts the free.
+A nasty pull on <other> leads to a free which is scored by <name>.
+<name> points the free won by <other>.
+The ref blows his whistle and <name> scores the free from the 65.
+<name> scores a free from a tough angle.
+A soft free is given by the ref and <name> scores it.
+<name> puts the ball over the bar from a free on the 21.
+<other> took a nasty blow across his arm but <name> scores the free.

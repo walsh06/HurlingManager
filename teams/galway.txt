@@ -1,0 +1,17 @@
+A
+14
+GK,James Skehill,16,2,1,1
+FB,Johnny Coen,1,18,3,2
+FB,Kevin Hynes,1,18,1,2
+FB,Fergal Moore,1,17,1,2
+HB,Niall Donohue,1,18,8,2
+HB,Tony Og Regan,1,19,10,2
+HB,David Collins,1,17,7,2
+MF,Iarla Tanian,1,9,19,3
+MF,Andy Smith,1,4,18,11
+HF,David Burke,1,2,10,18
+HF,Niall Burke,1,3,9,18
+HF,Cyril Donnelan,1,2,10,18
+FF,Damien Hayes,1,1,1,19
+FF,Joe Canning,1,1,3,20
+FF,James Regan,1,2,3,17

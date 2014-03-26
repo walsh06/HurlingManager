@@ -1,0 +1,19 @@
+<name> picks up the sliotar and hits it over the bar.
+The ball is sent over the bar by <name>.
+A poor clearance is caught by <name> and sent back over the bar.
+<name> makes a great catch and scores a point on the turn.
+<name> takes his point.
+The ball is controlled well by <name> and he scores a point by the sidelines.
+<name> finds himself unmarked and slots the ball between the posts.
+<name> wins the ball on the 45 and scores a nice point.
+<other> passes the ball to <name> and its hit between the posts.
+<other> hits the ball to the unmarked <name> on the sideline, who sends it over the bar.
+<name> catches the pass from <other>, gets past his man and adds another point.
+The loose ball is picked up by <other> who picks out <name> and its stuck over the bar.
+<name> takes his point and the goals will come.
+And its a point from <name>.
+A loose sliotar is picked up by <name> and he puts it over the bar.
+Somehow <name> comes out with the ball and scores a nice point.
+<other> misses the catch but <name> helps him out and scores a point from the loose ball.
+A good passing move ends with <name> and he scores a point for the team.
+<other> won the ball from his man and set up <name> for the good score.

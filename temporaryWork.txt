@@ -1,0 +1,110 @@
+	public void setInitialProb(Team teamOne, Team teamTwo)
+	{	
+		teamOneAtk = teamOne.getAttack();
+		teamOneDef = teamOne.getDefence();
+		teamTwoAtk = teamTwo.getAttack();
+		teamOneDef = teamTwo.getDefence();
+		
+		teamOneTotalProb = 1.8 + ((teamOneAtk - teamTwoDef)/100) + ((teamOneAtk - teamTwoDef)/200);
+		teamOnePoint = 0.8 + ((teamOneAtk - teamTwoDef)/100);
+		teamOneGoal = teamOnePoint + 0.05 + ((teamOneAtk - teamTwoDef)/200);
+		teamOneDefence = teamOneGoal + 0.2 + (teamOneDef/1000);
+				
+		teamTwoTotalProb = 1.8 + ((teamTwoAtk - teamOneDef)/100) + ((teamTwoAtk - teamOneDef)/200);
+		teamTwoPoint = 1 + ((teamTwoAtk - teamOneDef)/100);
+		teamTwoGoal = teamTwoPoint - 0.05 - ((teamTwoAtk - teamOneDef)/200);
+		teamOneDefence = teamTwoGoal + 0.2 + (teamTwoDef/1000);
+		
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		Commentary commentary = new Commentary();
+		Team teamOne = new Team("teamA.txt"), teamTwo = new Team("teamB.txt");
+		int games = 10;
+		int pointsOne = 0, pointsTwo = 0, goalsOne = 0, goalsTwo = 0;
+		int total = teamOne.getTotal() + teamTwo.getTotal();
+		int[][] scores = new int[games][4];
+		String p = "";
+		String report = "", comment = "";
+		boolean score = false;
+		
+		System.out.println(teamOne.getTotal() + " " + teamTwo.getTotal());
+		for(int j = 0; j < games; j++)
+		{
+			pointsOne = 0;
+			pointsTwo = 0;
+			goalsOne = 0;
+			goalsTwo = 0;
+
+			report = "";
+			for(int i = 0; i < 70; i++)
+			{
+				double event = Math.random() * 1.8;
+				int teamEvent = (int)(Math.random() * total);
+				if(teamEvent < teamOne.getTotal())
+				{
+					if(event >= 1)
+					{
+							p = teamOne.getPlayers().get(playerEvent(teamOne, 37, 71, 91, 99)).getName();
+							pointsOne++;
+							
+							comment = commentary.getPointCom(p, teamOne);
+						
+						score = true;
+					}
+					else if(event >= 0.95)
+					{
+							p = teamOne.getPlayers().get(playerEvent(teamOne, 55, 90, 96, 99)).getName();
+							goalsOne++;
+							comment = commentary.getGoalCom(p, teamOne);
+						score = true;
+					}
+					else if(event >= 0.70)
+					{
+							report += "MIN) " + i  + " WIDE \n";
+					}
+				}
+				else
+				{
+					if(event >= 1)
+					{
+						p = teamTwo.getPlayers().get(playerEvent(teamTwo, 37, 71, 91, 99)).getName();
+						pointsTwo++;
+		
+						comment = commentary.getPointCom(p, teamTwo);
+						score = true;
+					}
+					else if(event >= 0.95)
+					{
+							p = teamTwo.getPlayers().get(playerEvent(teamTwo, 55, 90, 96, 99)).getName();
+							goalsTwo++;
+						
+							comment = commentary.getGoalCom(p, teamTwo);
+						    score = true;
+					}
+					else if(event >= 0.70)
+					{
+							report += "MIN) " + i + " WIDE \n";
+					}
+				}
+				
+				scores[j][0] = goalsOne;
+				scores[j][1] = pointsOne;
+				scores[j][2] = goalsTwo;
+				scores[j][3] = pointsTwo;
+				if(score)
+				{
+					report += "MIN) " + i + " " + comment + " \n" + scores[j][0] + "-" + scores[j][1] + " TO " + scores[j][2] + "-" + scores[j][3] + " \n";
+					//report += "MIN) " + i + " Player: " + p + " \n" + scores[j][0] + "-" + scores[j][1] + " TO " + scores[j][2] + "-" + scores[j][3] + " \n";
+
+				}
+				score = false;
+			}
+			FileManipulation.writeReport(report, "report" + j + ".txt");
+			System.out.println("SIM " + j + " FINISHED");
+		}
+		
+		System.out.println("SIM DONE");
+	}

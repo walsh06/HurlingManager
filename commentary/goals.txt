@@ -1,0 +1,11 @@
+<name> hits it past the goalie and into the back of the net.
+<name> catches the ball, turns and scores a goal.
+The ball is picked up by the sideline by <name> he solos past two men and hits it past the goalie.
+The sliotar is rifled past the goalie by <name>.
+The ball is fumbled by the goalie and <name> pulls on it.
+A good ball into the corner to <name> leads to a good shot past the goalie.
+The ball is caught by <other> and he lays it off to <name> who scores a goal.
+A fast pull by <name> and its a goal.
+<other> breaks the high ball for <name> who hits it past the keeper.
+A lucky break falls to <name> and he finishes the goal.
+<name> pounces on the fumbled ball and sticks it in the back of the net.

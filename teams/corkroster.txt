@@ -1,0 +1,15 @@
+Anthony Nash,17,2,1,1
+Shane O'Neill,1,18,3,2
+Stephen McDonnel,1,18,1,2
+Conor O'Sullivan,1,17,1,2
+William Egan,1,18,10,2
+Christopher Joyce,1,17,9,2
+Tom Kenny,1,17,11,2
+Lorcan McLoughlin,1,9,17,3
+Daniel Kearney,1,4,18,11
+Jamie Coughlan,1,1,1,18
+Seamus Harnedy,1,3,7,17
+Pa Cronin,1,2,10,18
+Conor Lehane,1,2,10,18
+Luke O'Farrell,1,1,3,17
+Patrick Horgan,1,2,6,19
